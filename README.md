@@ -7,9 +7,9 @@ Simple wrapper over 'deque' that allows:
 * passing multiple values into constructor and enqueue
 * chaining enqueue() calls
 
-`q1 = Jqueue()
+`q1 = Jqueue()`
 
-assert(len(q1) == 1)`
+`assert(len(q1) == 1)`
 
 `q2 = Jqueue(1)`
 
