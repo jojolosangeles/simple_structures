@@ -7,7 +7,7 @@ Simple wrapper over 'deque' that allows:
 * passing multiple values into constructor and enqueue
 * chaining enqueue() calls
 
----
+`
 q1 = Jqueue()
 assert(len(q1) == 1)
 
@@ -20,4 +20,4 @@ assert(q3.dequeue() == 7)
 q4 = Jqueue().enqueue(9).enqueue(4,3,2,1)
 assert(d4.dequeue() == 9)
 
----
+`
